@@ -17,7 +17,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 const ai = new GoogleGenAI({ 
-  apiKey: process.env.GEMINI_API_KEY || "AIzaSyBDZZi4JLoIBfa-OIyxsOEK1fkwqoczM_A" 
+  apiKey: process.env.GEMINI_API_KEY
 });
 
 app.use(cors({
